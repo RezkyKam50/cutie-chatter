@@ -1,0 +1,147 @@
+/* style.css */
+
+
+/* Global Font (for normal text elements) */
+* {
+    font-family: "SF Pro Display";
+    font-weight: 500;
+}
+
+/* Use Font Awesome for specific icon elements */
+.fa, .fas, .fab, .far { 
+    font-family: "Apple Color Emoji"; 
+}
+
+
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, 
+        stop:0 rgba(20, 20, 20, 255), 
+        stop:1 rgba(36, 36, 36, 255));
+    border-radius: 30px;
+}
+
+
+/*
+    MINIMIZE BUTTON
+*/
+
+
+QPushButton#minimize_button {
+    background-color: transparent;   
+ 
+    color: white;               
+    border: none;               
+    padding: 5px 5px;          
+    font-size: 14px;           
+    border-radius: 2%;   
+    font-weight: 100;       
+}
+
+QPushButton#minimize_button:hover {
+    background-color: rgba(255,255,255,0.3); 
+}
+
+ 
+
+
+
+/*
+    EXIT BUTTON
+*/
+
+
+QPushButton#exit_button {
+    background-color: transparent;  
+ 
+    color: white;               
+    border: none;               
+    padding: 5px 5px;         
+    font-size: 14px;           
+    border-radius: 2%;      
+    font-weight: 100;      
+}
+
+QPushButton#exit_button:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+ 
+
+
+/*
+    PROMPT
+*/
+
+QTextEdit#prompt_box {
+    padding: 15%;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    background-color: transparent;
+    color: #ffffff;
+    margin: 10px;
+    height: 120%;
+    min-width: 100%;  /* Ensure it’s wide enough */
+    width: 120%;  /* Make it expand to available space */
+}
+QTextEdit#prompt_box:focus {
+    border-color: #00ff08;
+}
+QTextEdit#prompt_box QScrollBar:vertical,
+QTextEdit#prompt_box QScrollBar:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+/*
+    SUBMIT BUTTON
+*/
+
+QPushButton#submit_button {
+    padding: 20px;
+    font-size: 16px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+}
+QPushButton#submit_button:hover {
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+
+/*
+    CHAT AREA
+*/
+
+
+QFrame#chat_frame {
+    background-color: transparent;
+    border: 0px solid rgba(255,255,255, 0.5);
+    border-radius: 10%;
+}
+
+QFrame#chat_frame QScrollBar:vertical,
+QFrame#chat_frame QScrollBar:horizontal {
+    width: 0px;
+    height: 0px;
+}
+
+QLabel#user_response {
+    color: white;
+    font-size: 24px;
+    background-color: rgba(66, 66, 66, 0.2);
+    padding: 28%;
+    border-radius: 15%;
+}
+
+QLabel#ai_response {
+    color: white;
+    font-size: 24px;
+    background-color: rgba(133, 133, 133, 0.2);
+    padding: 28%;
+    border-radius: 15%;
+}
+
