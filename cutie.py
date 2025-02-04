@@ -164,21 +164,14 @@ class CutieChatWindow(QMainWindow):
     def animate_submit_button(self):
         # Create a QPropertyAnimation object
         self.animation = QPropertyAnimation(self.submit_button, b"iconSize")
-
-        # Set the duration of the animation (in milliseconds)
         self.animation.setDuration(1000)
 
-        # Set the easing curve for the animation
         self.animation.setEasingCurve(QEasingCurve.Type.CosineCurve)
 
-        # Set the start and end values for the animation
         self.animation.setStartValue(QSize(34, 34))
         self.animation.setEndValue(QSize(26, 26))
 
-        # Start the animation
         self.animation.start()
-
-        # Connect the finished signal to a slot that resets the icon size
         self.animation.finished.connect(self.reset_submit_button_animation)
 
     def reset_submit_button_animation(self):
