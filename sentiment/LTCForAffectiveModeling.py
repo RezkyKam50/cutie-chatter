@@ -13,6 +13,7 @@ import seaborn as sns
 '''
 
 This code is under development for Modeling Affective States where emotional response factor is determined by Tau parameter
+learnable variable timesteps are solved with Runge Kutta 4 for its differential equation formula.
 
 Model : Liquid Time Constant by Ramin Hasani, MIT CSAIL
 
