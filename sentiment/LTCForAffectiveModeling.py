@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.random as random
 import torchdiffeq
-import random
 from torch.utils.data import DataLoader, TensorDataset
 import numpy as np
 import matplotlib.pyplot as plt
