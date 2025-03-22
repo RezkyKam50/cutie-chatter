@@ -10,6 +10,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+'''
+
+This code is under development for Modeling Affective States where emotional response factor is determined by Tau parameter
+
+Model : Liquid Time Constant by Ramin Hasani, MIT CSAIL
+
+'''
+
 class ODE(nn.Module):
     def __init__(self, input_size, hidden_size):
         super().__init__()
