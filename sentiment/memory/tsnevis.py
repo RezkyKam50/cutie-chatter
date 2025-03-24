@@ -6,6 +6,13 @@ import os
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
+'''
+
+For comparing the cosine similarity between two sentences or paragraph
+
+'''
+
+
 class TextSimilaritySearch:
     def __init__(self, dimension=768):
         self.dimension = dimension
