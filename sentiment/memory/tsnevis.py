@@ -8,7 +8,7 @@ from sklearn.manifold import TSNE
 
 '''
 
-For comparing the cosine similarity between two sentences or paragraph
+For comparing the cosine similarity between two sentences or paragraph, retrived from encoder model embedding
 
 '''
 
