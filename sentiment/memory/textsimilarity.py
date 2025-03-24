@@ -4,6 +4,11 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Auto
 import numpy as np
 import os
 
+'''
+
+For comparing the cosine similarity between two sentences or paragraph, retrived from encoder model embedding
+
+'''
 
 class TextSimilaritySearch:
     def __init__(self, dimension=768):
