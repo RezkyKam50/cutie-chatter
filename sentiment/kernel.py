@@ -2,6 +2,12 @@ import triton.language as tl
 import triton
 
 
+'''
+
+Hidden states evolution GPU calc. kernel for LTC model, can be solved using DormanPrince 5 or RungeKutta 4th Order
+
+'''
+
 @triton.jit
 def LiKernel(
     h_ptr,
