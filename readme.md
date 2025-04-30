@@ -1,6 +1,6 @@
 # CutieChatter
 
-## 👥 Kelompok 14 - Anggota
+## 👥 Kelompok 13 - Anggota
 - **Rezky Mulia Kam** - 2702260773
 - **Owen Prathama Ierawan** - 2702305600
 - **Nicholas Wira Angkasa** - 2702294521
